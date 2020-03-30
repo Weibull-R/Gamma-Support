@@ -1,0 +1,11 @@
+useDynLib(wrg)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "dgamma", "optim", "pgamma")
+importFrom("WeibullR", "mlefit", "mleframe")
+
+export(
+mle_gamma,
+gstart,
+LLgamma,
+wblrLoglike
+)
