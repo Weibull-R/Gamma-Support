@@ -6,6 +6,9 @@ ehthumbs.db
 src-i386
 src-x64
 
+# Folders holding R check information
+wrg.Rcheck
+
 # Windows executables
 *.bat
 *.exe
